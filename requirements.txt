@@ -1,6 +1,9 @@
 #https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
 pyrofork==2.3.61
-TgCrypto
+python-3.10.13
+pyrogram==2.0.106
+tgcrypto
+typing-extensions==4.7.1
 pyromod==1.5
 schedule
 APscheduler
