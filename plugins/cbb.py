@@ -40,8 +40,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     elif data == "start":
         await query.message.edit_text(
             text = START_MSG.format(
-    first=query.from_user.first_name,
-    mention=query.from_user.mention)
+    first=query.from_user.first_name),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
