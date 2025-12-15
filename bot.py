@@ -1,6 +1,7 @@
 from aiohttp import web
 from plugins import web_server
 import asyncio
+asyncio.set_event_loop(asyncio.new_event_loop())
 import pyromod.listen
 from pyrogram import Client
 from pyrogram.enums import ParseMode
