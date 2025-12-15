@@ -41,7 +41,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text = START_MSG.format(
     first=query.from_user.first_name,
-    mention=""
+    mention=query.from_user.mention
             )
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
