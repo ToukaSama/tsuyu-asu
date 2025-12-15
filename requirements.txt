@@ -4,7 +4,7 @@ TgCrypto
 pyromod==1.5
 schedule
 APscheduler
-uvloop==0.21.0
+uvloop
 # --- For-Database ------------ #
 pymongo
 motor
