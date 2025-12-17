@@ -116,7 +116,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"</blockquote><b>This File is deleting automatically in   {get_exp_time(FILE_AUTO_DELETE)}. Forward in your Saved Messages..!.</b></blockquote>"
+                f"<blockquote><b>This File is deleting automatically in   {get_exp_time(FILE_AUTO_DELETE)}. Forward in your Saved Messages..!.</b></blockquote>"
             )
             reload_url = (
                 f"https://t.me/{client.username}?start={message.command[1]}"
