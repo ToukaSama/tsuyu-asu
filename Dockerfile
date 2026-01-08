@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM 5hojib/vegapunk:latest
 WORKDIR /app
 
 COPY requirements.txt requirements.txt
